@@ -34,7 +34,6 @@ Implements try-except blocks to handle potential errors during data loading and 
 
 
 ## Requirements
-
 Python 3.6+
 Required libraries:
 pandas
@@ -44,25 +43,19 @@ scikit-learn
 
 
 
-Installation
-
+## Installation
 Clone the repository:
 git clone https://github.com/<your-username>/Iris-Data-Analysis.git
 cd Iris-Data-Analysis
-
 
 Create a virtual environment (optional but recommended):
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-
 Install the required libraries:
 pip install pandas matplotlib seaborn scikit-learn
 
-
-
-Usage
-
+## Usage
 Ensure the required libraries are installed.
 Run the script:python iris_analysis.py
 
@@ -79,7 +72,7 @@ Iris-Data-Analysis/
 ├── iris_visualizations.png # Output file containing the visualizations (generated after running the script)
 └── README.md              # This file
 
-Assignment Details
+## Assignment Details
 This project fulfills the requirements of the "Analyzing Data with Pandas and Visualizing Results with Matplotlib" assignment. Key features include:
 
 Dataset: Uses the Iris dataset from sklearn.datasets.
@@ -89,7 +82,7 @@ Visualizations: Creates four distinct plots with proper customization (titles, l
 Error Handling: Implements robust error handling for file loading and processing.
 Insights: Provides observations from both analysis and visualizations, such as species-specific measurement differences and data distribution patterns.
 
-Output
+## Output
 Running the script generates:
 
 Console output with dataset details, statistics, and observations.
@@ -100,12 +93,11 @@ Histogram showing the distribution of petal length.
 Scatter plot illustrating the relationship between sepal length and petal length.
 
 
-
-Notes
+## Notes
 
 The script can be converted to a Jupyter notebook (.ipynb) by running it in Jupyter and saving the output.
 The Iris dataset is a clean, well-known dataset, making it ideal for this assignment.
 Visualizations use seaborn for enhanced aesthetics, as recommended.
 
-License
+## License
 This project is licensed under the MIT License.
